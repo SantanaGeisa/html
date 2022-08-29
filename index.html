@@ -1,0 +1,411 @@
+<!---
+HTML- Linguagem de Marcacao de texto
+Sempre que abrir devo fechar uma TAG
+Elementos vazios n tem fechamento de TAG
+-->
+<H1> 
+    Conteudo da TAG
+</H1>
+<a href="tagdelink"></a>
+<p>tag para escrever paragrafo e tbm da um quebra na linha</p>
+<em>dar emfase</em>
+
+
+<!---
+Atributos
+Sempre aspas duplas no atributo
+Atributos mais ultilizados (globais)
+
+class- aplicar estilo CSS  e acessar no JS
+contenteditable- editar
+data-* posso-colocar-qualquer-coisa
+hidden- esconde uma tag
+id- usar 1 por pg
+style- dar estilo ao HTML
+tabindex- seleciona de acordo com a ordem 1,2..
+title- colocar titulo
+
+-->
+
+<img src="imagem.png" alt="texto alternativo">
+
+ <div class="Carrinho">
+
+ </div>
+
+ <!--
+    Praticando
+ -->
+
+ <p> O rato roeu a <em>roupa</em> do <strong> De Roma</strong> 
+
+ </p>
+
+ <a href="http://google.com.br">saiba mais
+
+ </a>
+
+ <!--
+
+    O HTML nao quebra linhas e dar espacos,
+    temos caracteres reservados para fazer isto
+    tag br -quebra
+
+ -->
+
+ <!--
+
+    Titulos  e cabecalhos
+ -->
+
+ <h1>Sobre Mim</h1>
+ <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+ <p>uo nam esse, eum officiis minus odio deserunt perspiciatis ad laudantium quas. Atque id sint quidem accusamus magni dicta ad at necessitatibus!</p>
+ 
+<h2>Nascimento </h2>
+<h3>Infancia</h3>
+<h3>Adolecencia
+
+</h3>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eum, harum consectetur corrupti maxime animi nihil quia iste, hic ea atque quibusdam doloribus iure cumque ipsam sed sapiente. Omnis, dolore?
+
+<h2>Trabalho</h2>
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, placeat neque maiores molestiae nemo numquam reiciendis labore consequatur adipisci, commodi minima eos eligendi a impedit iure accusantium, saepe natus ipsum!
+<br>
+
+<a href="">Saiba Mais </a>
+
+<!--
+    Listas 
+    nao ordenadas e ordenadas
+-->
+
+<h1>Suco detox</h1>
+<h2>Ingredientes</h2>
+
+<br>
+
+<li>1 couve</li>
+<li> 1 colher de acucar</li>
+<li>1 copo de agua</li>
+<li>1 Cenoura</li>
+
+<ol>
+    <li>1 couve</li>
+    <li> 1 colher de acucar</li>
+    <li>1 copo de agua</li>
+    <li>1 Cenoura</li>
+
+</ol>
+
+<!--
+    Citacoes
+
+-->
+
+<blockquote cite="http://developer.mozila.org/en-US/docs/web/HTML/Element/blockquot">
+    <p>O <strong>Elemento HTML<code>&lt:</code>
+    </strong> (ou <em>Indica que um texto externo foi citado</em>)
+
+</p>
+
+</blockquote>
+
+<p> De acordo com <a href="linkoaraacesso">
+<cite> pag MDN blockquot</cite></a>
+
+</p>
+
+<!--
+    Abreviacao
+-->
+
+<p>Usamos <abbr title="Hyertext Markup language"> HTML</abbr> Para estruturar nossos documentos da web
+
+</p>
+
+
+<!--
+    tag para detalhes de contato
+    <address>
+-->
+<address>
+
+    <p>Geisa Santana <br>
+    <strong>Sao Paulo, SP</strong></p>
+
+</address>
+
+<!--
+    Lista de descreicao
+
+    <dl>
+        <dt></dt>
+        <dd></dd>
+
+    </dl>
+
+-->
+
+<h2>Glosario</h2>
+<dl>
+    <dt>Hypertext</dt>
+    <dd>E um hiper texto com possibilidades</dd>
+
+    <dt>MarckUp</dt>
+    <dd>e um elemento de marcacao</dd>
+
+</dl>
+
+<!--
+    Representacao de codigo no HTML
+
+    <code> - Ppara partes genericas
+    <pre> - blocos de codigo
+-->
+
+<pre>
+
+     <code>
+         document
+            .queryselector("body")
+               espeita os espacos
+    </code>
+
+</pre>
+<!--
+    Elementos Genericos
+   * <div> mantem o texto em bloco
+   * <spam> mantem o texto em linha
+-->
+
+<div>
+      Um texto qualquer
+</div>
+Outro texto qualquer
+<span> um </span> <span> outro</span>
+
+<!--
+
+    Hyperlinks - Elemento Ancora : <a>
+        +Anatomia
+
+        +Atributos
+        -Globais
+        -href
+            para onde iremos quando clicamos em link
+            - url completa
+            -fragmento
+            -email
+            -telefone
+            -outros
+        -Download    
+        -Target
+        - _self (padrao)
+        - _blank
+
+          Obs: posso colocar qualwuer texto dentro do conteudo do hyperlink
+
+
+-->
+
+<a href="caminho do link, isto e o endereco">Conteudo</a>
+
+<a href="https://google.com.br" title="Ir para google">
+    <h1>Google</h1>
+    <p>posso colocar qulaquer texto, inclusice img</p>
+    <img src="https://source.unsplash.com/random" alt="">
+
+</a>
+
+<!--
+    Contruindo tabelas basicas
+    table- 
+    tr- conteudo da table
+    th- cabecalho
+    td-conteudo da linha
+    tbody- corpo da tabela
+    tfoot- rodape
+    caption- descricao da tabela
+-->
+<table>
+    <caption>Pessoas por idade</caption>
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td>Geisa</td>
+            <td>25</td>
+        </tr>
+    
+        <tr>
+            <td>Mayk</td>
+            <td>35</td>
+        </tr>
+
+    </tbody>
+    <tfoot>
+
+        <tr>
+            <td>Tota:</td>
+            <td>2 pessoas</td>
+        </tr>
+
+    </tfoot>
+
+</table>
+
+<!--
+    Tabela complexa
+aria-rowspan- ocupar linhas
+colspan-ocupar colunas
+-->
+
+<table>
+
+    <caption>Prroduzidos x Vendidos por loja</caption>
+<colgroup>
+
+<col>
+<col span="2" style="background-color:red">
+<col span="2" style="background-color:blue;">
+
+</colgroup>
+
+<thead>
+    <tr>
+    <th rowspan="2"></th>
+    <th colspan="2" scope="colgroup">Afonso Pena</th>
+    <th colspan="2" scope="colgroup" >Antonia perreira</th>
+
+</tr>
+
+    <tr>
+
+    <th scope="col" >Produzidos</th>
+    <th scope="col" >Vendidos</th>
+    <th scope="col" >Produzidos</th>
+    <th scope="col" >Vendidos</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+    <th scope="row" >Vassouras</th>
+    <td>50</td>
+    <td>30</td>
+    <td>20</td>
+    <td>20</td>
+</tr>
+<tr>
+    <th>Baldes</th>
+    <td>50</td>
+    <td>50</td>
+    <td>30</td>
+    <td>25</td>
+</tr>
+
+</tbody>
+</table>
+
+<!--
+    Head- nao e visivel no navegador, serve para configurar a pg
+meta- tag para definir meta dados
+     charset
+     name
+     contant
+
+-->
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="whidt=device-width, initial-scale=1.0" >
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="favicon.ico" type="image/x-icon" >
+
+</head>
+
+Meta 
+
+<!---
+caixas/ boxe
+block- ocupa toda a linha, colocando o proximo elemento abaixo
+inline- elemento ao lado do outro, empurra o elemento, nao coloca abaixo
+-->
+html 
+<div>block</div>
+
+<span>inline</span>
+
+
+css 
+div {
+    height: 100px;
+    border: 1px solid red;
+    width: 10px;
+  } 
+  
+  span {
+    width: 10px;
+    height: 100px;
+    border: 1px solid blue;
+    display: block;
+
+
+<!--
+
+    bordas da caixa
+    div selection cria uma caixa abaixo
+    margin-botton da espaco entre as caixas
+
+-->
+
+html 
+<div>
+    Margin
+</div>
+
+css 
+
+div {
+    border: 1px solid red;
+    width: 100px;
+    reight: 100px;
+    margin: 80px;
+
+}
+background-color
+define o fundo para o nosso elemento
+header - aplico o back aqui dentro no css 
+
+HTML 
+<header>
+</header>
+
+<main>
+    <h1> Evolua Rapido com a tecnologia</h1>
+    <p>Junte-se aos melhores devs e acelere sua acrreira</p>
+</main>
+
+CSS 
+
+* { margin: 0;}
+
+<header>
+    {
+        border:
+        height:
+
+    }
+</header>
+
+<video src="https://youtu.be/I-OOmrMTa_c" controls></video>
+

@@ -1,0 +1,162 @@
+
+<!--
+Cabecalhos e paragrafos
+-->
+
+<h1> Sobre Mim</h1>
+ Me chamo Geisa, tenho 25 anos,  moro em São paulo, sou solteira. <p><h3>Meus roobs sao:</h3>   </p> 
+ 
+ <h2>Nascimento</h2>
+
+ 30/05/1997
+ <h3>Infancia</h3>
+ <h3>Adolecencia</h3>
+ <h3> Fase adulta</h3>
+
+ <H2> Trabalho</H2>
+ Enfermeira
+ Saiba mais- <link rel="stylesheet" href="clique  aqui">
+
+<!--
+
+Listas no HTML 
+
+ordenadas e não ordeadas 
+-->
+
+
+<ol> Ordenada
+    <h1>Suco detox</h1>
+<h2>Ingredientes </h2>
+<li> 3 folhas de couve</li>
+<li> 1 limao</li>
+<li> 1 gengibre</li>
+<li> 2 cenouras</li>
+</ol>
+
+
+<ul> Não ordenada 
+    <h1>Suco detox</h1>
+<h2>Ingredientes </h2>
+<li> 3 folhas de couve</li>
+<li> 1 limao</li>
+<li> 1 gengibre</li>
+<li> 2 cenouras</li>
+</ul>
+
+
+<!--
+Citacoes
+
+<blockquote>
+
+    <cite>
+
+    <q>
+
+-->
+<blockquote cite="http://">
+O <strong>Elemento HTML <code>&lt;blockquot&gt;</code>
+</strong> (ou <em> HTML Block 
+    Quation Element</em>) Indica que um texto externo foi citado.
+<blockquote>
+
+<!---
+Abreviacoes
+
+<abbr>
+-->
+
+<p> Usamos <abbr title="Hipertext Markup Language"> HTML</abbr> Para estruturar documentos da web
+
+</p>
+
+<!--
+
+    Detalhe de Contato
+
+    <adrdress
+-->
+
+<address>
+
+    <p> Geisa Santana <br>
+        <strong> Sao Paulo- SP</strong>
+
+    <p>
+</address>
+
+<!--
+    Listas de Descricao 
+
+<dl>
+    <dt><dt>
+    <dt><dt>
+    </dt>
+-->
+
+<h2> Glosario</h2>
+
+<dl>
+    <dt>Hypertext</dt>
+    <dd> E um hiper texto com ...</dd>
+
+</dl>
+
+<dt>  Descricao 2 </dt>
+<dd> e uma descricao ...</dd>
+
+<dl>
+
+<dt> Descricao 3</dl>
+<dd> E uma descricao ....</dd>
+
+<!--
+    Representacao de codigos 
+
+    <code>
+
+        <pre>
+            Blocos de codigo/ respeita ps espacos e formatacao
+-->
+<pre>
+    <code>
+
+        documnt.
+        querySelector("boddy")    
+        
+    </code>
+
+</pre>
+
+<!--
+
+    Elementos genericos 
+    * <div> (bloco)
+    * <span>(linha)
+-->
+
+<div>
+    Um texo qualquer 
+</div>
+   Outro texto qualquer 
+
+   <span>Outro</span>  <span> texto</span>
+   O spam mantem o texto  na mesma linha
+<div class=" cart">
+   <span>Camiseta</span>
+   <spam> Rs 99,99</spam>
+</div>
+
+
+
+
+
+
+
+   
+   
+
+
+
+

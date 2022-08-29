@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+body div .borda {
+    border: 5px solid white;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 4px;
+}
+
+body div .borda img {
+    border-radius: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+body div p {
+    color: white;
+    font-size: 30px;
+}
+
+body div a {
+    color: aqua;
+    font-size: 20px;
+}
+
+body div .textos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+

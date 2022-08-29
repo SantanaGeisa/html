@@ -1,0 +1,58 @@
+<!--
+
+    Links 
+-->
+<p> Encontre-me:</p>
+
+<ul>
+
+    <li><a href= "http://rocketseat.com.br"target=blank>website<a></li>
+    <li></a href=geisa.santana.com.br>Email</a><li>
+    <li><a href="tel:+5511987112960">Telefone<a></a/li>
+</ul>
+
+<h1 id="about">Sobre Mim</h1>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid numquam cumque odit, doloribus qui quae placeat excepturi eveniet magni quibusdam esse eum rem nesciunt adipisci veniam vel praesentium laudantium. Consequuntur.
+
+<h2  id="hirtory">Historia</h2>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, suscipit qui molestiae impedit nulla velit totam tempora in sint ex fugit voluptas odit vel nostrum officiis esse? Laborum, autem neque!
+
+<h3 id="works">Trabalho</h3>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore temporibus ex vero eaque praesentium, eveniet quasi magni veniam hic blanditiis ad id modi quam odio commodi dicta. Suscipit, accusamus quaerat.
+
+<!--
+    Conteudo de hiperlinks
+    qualquer conteudo
+-->
+<a href="http:/google.com" title="Ir para google"></a>
+<h1>Google</h1>
+<p> Posso colocar mais de um elemento</p>
+
+<!--
+
+    URLs e caminhodos arquivos
+    -Uniform Resource Locator
+    -https://www.rocketseat.com.br
+    URLs usam caminhos para encontrar arquivos
+    
+    Caminho dos arquivos
+    Onde, no explorador de arquivo, um recurso esta localizado
+
+-->
+
+<a href="">Abrir <anatomia-doc></anatomia-doc></a>
+<a href="https://google.com.br">Abrir Google</a>
+<a href="anatomia-document.html"> abrir anatomia do doc </a>
+<!--
+
+Como navegar pelos caminhos 
+entrar diretorio\sair diretorio
+diretorio raiz 
+-->
+
+<a href="index"> aquivo na pasta link</a>
+
+   
+
+
+-->
